@@ -30,7 +30,7 @@ mongoose.connect(
     console.log("MongoDB successfully connected")
 })
 .catch(err => console.log(err))
-
+console.log("Hi");
 app.use(passport.initialize())
 require("./config/passport")(passport)
 
